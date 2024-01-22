@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, red, orange);
+    color: yellow;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+#content {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 25px;
+    border-radius: 20%;
+}

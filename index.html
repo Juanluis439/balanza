@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Calculadora de Peso Ideal</h1>
 
-    <label for="altura">Altura (cm):</label>
+<div id="content">
+        <label for="altura">Altura (cm):</label>
     <input type="number" id="altura" placeholder="Ingrese su altura">
 
     <br>
 
     <label for="peso">Peso (kg):</label>
     <input type="number" id="peso" placeholder="Ingrese su peso">
+    
 
     <br>
 
     <button onclick="calcularIMC()">Calcular Peso Ideal</button>
 
     <div id="result"></div>
+</div>
 
     <script src="index.js"></script>
 </body>
