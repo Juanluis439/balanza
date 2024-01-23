@@ -1,5 +1,5 @@
 const getIMC=(imc)=>{
-    switch(imc){
+    switch (true) {
         case imc < 18.5:
             return 'Bajo peso';
         case imc >= 18.5 && imc <= 24.9:
